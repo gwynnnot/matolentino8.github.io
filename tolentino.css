@@ -1,0 +1,159 @@
+body {
+  min-height: 100%;  
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 16px;
+  line-height: 25px;
+  /* padding-bottom: 50px; */
+}
+
+.box { 
+  max-width: 700px;   
+  background: white;
+  margin: 0px auto 0px; 
+  box-shadow: 7px 7px 7px 3px #d1d1d1;
+  border-radius: 3px;  
+  padding: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar{
+  /* width: 80%; */
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5271FF;
+  transition: .4s ease;
+
+}
+
+ul li a:hover{
+  color: orangered;
+}
+
+
+.featured{
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 170px;
+}
+
+
+.info{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+
+.info h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+
+.info span{
+  color: #5271FF;
+}
+
+.info a{
+  text-decoration:  none;
+  color: #fff;
+  background: rgb(36,33,30);
+  margin: 25px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: .4s ease;
+}
+
+.info a:hover{
+  background: orangered;
+}
+
+
+.icons ion-icon{
+  color: #5271FF;
+  margin-left: 10%;
+  margin-right: -60px;
+  font-size: 40px;
+  transition: .4s ease;
+}
+
+.icons ion-icon:hover{
+  color: orangered;
+}
+
+.projs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item{
+  margin:2px;
+  border: 1px solid black;
+  height: 30%;
+  width: 30%;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills {
+  flex: 1;
+  color: white;
+  background-color: #5271FF;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.autobiography {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  border: 1px solid gray;
+  margin: 1px;
+  padding: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: small;
+}
+
+
